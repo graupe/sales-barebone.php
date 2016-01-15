@@ -1,0 +1,28 @@
+/*
+ * app.css
+ * Copyright (C) 2016 sas
+ *
+ * Distributed under terms of the MIT license.
+ */
+
+body {
+	background: white;
+	color: black;
+	font-family: Georgia, Palatino, Lucida Bright, Book Antiqua, serif;
+}
+
+
+a, a:hover, a:visited {
+  text-decoration: none;
+}
+
+th, td {
+	background-color: #f8f8f8;
+	margin: 3px;
+	padding: 3px;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+th {
+	background-color: #eee;
+}
