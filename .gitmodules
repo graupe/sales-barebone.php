@@ -1,3 +1,6 @@
 [submodule "app/libs/idiorm"]
-	path = app/libs/idiorm
+	path = app/php/libs/idiorm
 	url = https://github.com/j4mie/idiorm
+[submodule "app/js/pikaday"]
+	path = app/js/pikaday
+	url = https://github.com/dbushell/Pikaday
