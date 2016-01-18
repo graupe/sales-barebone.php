@@ -60,11 +60,12 @@ function dooexport($request) {
 	$tpl = new Simplate();
 	$tpl->customers = _query($from, $till);
 	$result = $tpl->render('sales.csv');
+	$result_length = strlen($result);
 	$filename = "sales-$from-$till.cvs";
 
 	header('Content-Disposition: attachment; filename="'.$filename.'"');
 	header("Content-Type: application/vnd.ms-excel");
-	header("Content-Length: ${result}");
+	header("Content-Length: ${result_length}");
 	echo $result;
 }
 /* default action */
